@@ -1,5 +1,17 @@
 # Basic
 A collection of basic projects in a variety of languages.
+
+### Future Plans
+The plan for this repo is to make an accessible resource for people to view on a variety of languages.
+<br />
+There will be a guide written up for each language on how to download and install for each operating system.
+<br />
+There will also be a guide on IDEs to use along with plugins for syntax coloring.
+<br />
+With this there will be a compile/execution through commandline for each language.
+<br />
+I also plan to automate the creation of most readmes, compilation of all given projects, and mass installation of most langs based on OS.
+
 ## Current Languages
 [Bash](bash)
 <br />

@@ -18,7 +18,7 @@ void print_backing(string_view subbed, bool dir, int len) {
   cout << subbed << endl;
 }
 
-void print_dir(string dir, int len) {
+void print_dir(string_view dir, int len) {
   vector<string> execs;
   vector<string> hdirs;
   for(const auto &f : fs::directory_iterator(dir)) {

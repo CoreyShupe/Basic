@@ -23,6 +23,8 @@ for sub in langs_json:
   langs.append(Language(sub['name'], sub['dir'], sub['project_sub']))
   lang_string += "[" + sub['name'] + "](" + sub['dir'] + ")\n<br />\n"
 
+base_dir = os.path.abspath(os.path.join(os.path.realpath(os.path.dirname(__file__)), '..')) 
+
 project_string = ""
 for sub in projects_json:
   name = sub['name']
@@ -32,13 +34,15 @@ for sub in projects_json:
   part = "[" + name + "](project_descriptors/" + name.upper().replace(' ', '_') + ".md) ("
   for lang in langs:
     subbed = lang.project_sub.replace('{dir}', d).replace('{name}', fname).replace('{adir}', adir)
-    part += "[" + lang.name + "](" + lang.d + "/" + d + "/" + subbed + ") "
+    place = lang.d + "/" + d + "/" + subbed
+    if os.path.isfile(os.path.join(base_dir, place)):
+      part += "[" + lang.name + "](" + lang.d + "/" + d + "/" + subbed + ") "
   part = part[:-1]
   project_string += part + ")\n<br />\n"
 
 readme = readme.replace("{languages}", lang_string).replace("{projects}", project_string)
 
-rmf = open(os.path.abspath(os.path.join(os.path.realpath(os.path.dirname(__file__)), '..', 'README.md')), "w")
+rmf = open(os.path.join(base_dir, 'README.md'), "w")
 rmf.write(readme)
 rmf.close()
 

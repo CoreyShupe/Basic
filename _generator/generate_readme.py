@@ -31,7 +31,7 @@ for sub in projects_json:
   fname = name.replace(' ', '')
   d = sub['dir']
   adir = d.replace('_', '')
-  part = "[" + name + "](project_descriptors/" + name.upper().replace(' ', '_') + ".md) ("
+  part = "[" + name + "](_project_descriptors/" + name.upper().replace(' ', '_') + ".md) ("
   for lang in langs:
     subbed = lang.project_sub.replace('{dir}', d).replace('{name}', fname).replace('{adir}', adir)
     place = lang.d + "/" + d + "/" + subbed

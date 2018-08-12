@@ -4,30 +4,30 @@ Basic is a resource full of basic projects written in a variety of languages.
 This was made as a guide for many languages on compilation, building, syntax, and installation.
 
 ## Current Languages
-(Bash)[bash]
+[Bash](bash)
 <br />
-(C++)[cpp]
+[C++](cpp)
 <br />
-(Elixir)[elixir]
+[Elixir](elixir)
 <br />
-(Haskell)[haskell]
+[Haskell](haskell)
 <br />
-(JS)[js]
+[JS](js)
 <br />
-(Java)[java]
+[Java](java)
 <br />
-(Python)[python]
+[Python](python)
 <br />
-(Rust)[rust]
+[Rust](rust)
 <br />
 
 
 ## Current Projects
-[Echo](project_descriptors/ECHO.md) ([Bash](bash/echo/echo.sh) [C++](cpp/echo/src/echo.cpp) [Elixir](elixir/echo/Echo.ex) [Haskell](haskell/echo/Echo.hs) [JS](js/echo/echo.js) [Java](java/echo/src/main/java/com/github/coreyshupe/echo/Echo.java) [Python](python/echo/echo.py) [Rust](rust/echo/echo.rs) )
+[Echo](project_descriptors/ECHO.md) ([Bash](bash/echo/echo.sh) [C++](cpp/echo/src/echo.cpp) [Elixir](elixir/echo/Echo.ex) [Haskell](haskell/echo/Echo.hs) [JS](js/echo/echo.js) [Java](java/echo/src/main/java/com/github/coreyshupe/echo/Echo.java) [Python](python/echo/echo.py) [Rust](rust/echo/echo.rs))
 <br />
-[Hello World](project_descriptors/HELLO_WORLD.md) ([Bash](bash/hello_world/hello_world.sh) [C++](cpp/hello_world/src/hello_world.cpp) [Elixir](elixir/hello_world/HelloWorld.ex) [Haskell](haskell/hello_world/HelloWorld.hs) [JS](js/hello_world/hello_world.js) [Java](java/hello_world/src/main/java/com/github/coreyshupe/helloworld/HelloWorld.java) [Python](python/hello_world/hello_world.py) [Rust](rust/hello_world/hello_world.rs) )
+[Hello World](project_descriptors/HELLO_WORLD.md) ([Bash](bash/hello_world/hello_world.sh) [C++](cpp/hello_world/src/hello_world.cpp) [Elixir](elixir/hello_world/HelloWorld.ex) [Haskell](haskell/hello_world/HelloWorld.hs) [JS](js/hello_world/hello_world.js) [Java](java/hello_world/src/main/java/com/github/coreyshupe/helloworld/HelloWorld.java) [Python](python/hello_world/hello_world.py) [Rust](rust/hello_world/hello_world.rs))
 <br />
-[Tree](project_descriptors/TREE.md) ([Bash](bash/tree/tree.sh) [C++](cpp/tree/src/tree.cpp) [Elixir](elixir/tree/Tree.ex) [Haskell](haskell/tree/Tree.hs) [JS](js/tree/tree.js) [Java](java/tree/src/main/java/com/github/coreyshupe/tree/Tree.java) [Python](python/tree/tree.py) [Rust](rust/tree/tree.rs) )
+[Tree](project_descriptors/TREE.md) ([Bash](bash/tree/tree.sh) [C++](cpp/tree/src/tree.cpp) [Elixir](elixir/tree/Tree.ex) [Haskell](haskell/tree/Tree.hs) [JS](js/tree/tree.js) [Java](java/tree/src/main/java/com/github/coreyshupe/tree/Tree.java) [Python](python/tree/tree.py) [Rust](rust/tree/tree.rs))
 <br />
 
 

@@ -21,7 +21,7 @@ langs = list()
 lang_string = ""
 for sub in langs_json:
   langs.append(Language(sub['name'], sub['dir'], sub['project_sub']))
-  lang_string += "(" + sub['name'] + ")[" + sub['dir'] + "]\n<br />\n"
+  lang_string += "[" + sub['name'] + "](" + sub['dir'] + ")\n<br />\n"
 
 project_string = ""
 for sub in projects_json:
@@ -33,7 +33,8 @@ for sub in projects_json:
   for lang in langs:
     subbed = lang.project_sub.replace('{dir}', d).replace('{name}', fname).replace('{adir}', adir)
     part += "[" + lang.name + "](" + lang.d + "/" + d + "/" + subbed + ") "
-  project_string += part + "\b)\n<br />\n"
+  part = part[:-1]
+  project_string += part + ")\n<br />\n"
 
 readme = readme.replace("{languages}", lang_string).replace("{projects}", project_string)
 

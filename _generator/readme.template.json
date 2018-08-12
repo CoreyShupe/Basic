@@ -1,0 +1,18 @@
+{
+  "comments":"{dir} = base dir, {adir} = alphanumeric dir, {name} = name without spaces",
+  "languages":[
+    {"name":"C++","dir":"cpp","project_sub":"src/{dir}.cpp"},
+    {"name":"Elixir","dir":"elixir","project_sub":"{name}.ex"},
+    {"name":"Haskell","dir":"haskell","project_sub":"{name}.hs"},
+    {"name":"Java","dir":"java","project_sub":"src/main/java/com/github/coreyshupe/{adir}/{name}.java"},
+    {"name":"JS","dir":"js","project_sub":"{dir}.js"},
+    {"name":"Python","dir":"python","project_sub":"{dir}.py"},
+    {"name":"Rust","dir":"rust","project_sub":"{dir}.rs"},
+    {"name":"Bash","dir":"bash","project_sub":"{dir}.sh"}
+  ],
+  "projects":[
+    {"name":"Tree","dir":"tree"},
+    {"name":"Echo","dir":"echo"},
+    {"name":"Hello World","dir":"hello_world"}
+  ]
+}

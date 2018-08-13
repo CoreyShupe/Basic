@@ -3,6 +3,9 @@ Basic is a resource full of basic projects written in a variety of languages.
 <br />
 This was made as a guide for many languages on compilation, building, syntax, and installation.
 
+## Contributing
+If you'd like to contribute please read through our [contributing guide](.github/CONTRIBUTING.md)
+
 ## Current Languages
 {languages}
 

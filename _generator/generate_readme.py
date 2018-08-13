@@ -7,10 +7,12 @@ class Language:
     self.d = d
     self.project_sub = project_sub
 
-with open("readme.template.md") as f:
+base_dir = os.path.abspath(os.path.join(os.path.realpath(os.path.dirname(__file__)), '..'))
+
+with open(os.path.abspath(os.path.join(base_dir, '_generator', "readme.template.md"))) as f:
   readme = f.read().replace("\\n", "\n")
 
-with open("readme.template.json") as f:
+with open(os.path.abspath(os.path.join(base_dir, '_generator', "readme.template.json"))) as f:
   data = json.load(f)
 
 projects_json = sorted(data['projects'], key=lambda k: k['name'])
@@ -21,9 +23,7 @@ langs = list()
 lang_string = ""
 for sub in langs_json:
   langs.append(Language(sub['name'], sub['dir'], sub['project_sub']))
-  lang_string += "[" + sub['name'] + "](" + sub['dir'] + ")\n<br />\n"
-
-base_dir = os.path.abspath(os.path.join(os.path.realpath(os.path.dirname(__file__)), '..')) 
+  lang_string += "[" + sub['name'] + "](" + sub['dir'] + ")\n<br />\n" 
 
 project_string = ""
 for sub in projects_json:

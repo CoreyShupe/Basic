@@ -8,7 +8,8 @@
     {"name":"JS","dir":"js","project_sub":"{dir}.js"},
     {"name":"Python","dir":"python","project_sub":"{dir}.py"},
     {"name":"Rust","dir":"rust","project_sub":"{dir}.rs"},
-    {"name":"Bash","dir":"bash","project_sub":"{dir}.sh"}
+    {"name":"Bash","dir":"bash","project_sub":"{dir}.sh"},
+    {"name":"Julia","dir":"julia","project_sub":"src/{name}.jl"}
   ],
   "projects":[
     {"name":"Tree","dir":"tree"},

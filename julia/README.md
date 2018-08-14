@@ -7,6 +7,7 @@ This language can be compiled down or used for scripting purposes with the exten
 
 ## Resources
 https://docs.julialang.org/
+<br />
 https://julialang.org/
 
 ## Installation

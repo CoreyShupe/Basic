@@ -1,5 +1,6 @@
 # C++ Projects
-C++ is a general purpose language, generally written using OOP concepts however also inherits a FP flow. This language can be used for many purposes including memory manipulation to simple execution programs to large games.
+C++ is a general purpose language, generally written using OOP concepts however also inherits a functional flow as well. 
+This language can be used for many purposes: memory manipulation; simple execution programs; large games; and anything in between.
 <br />
 It can be used in any operating system provided you have the correct libraries to support it.
 <br />

@@ -7,7 +7,9 @@ With this in mind it can also be used as a scripting language with the extension
 
 ## Resources
 https://ss64.com/bash/
+<br />
 http://tldp.org/LDP/abs/html/refcards.html
+<br />
 https://tiswww.case.edu/php/chet/bash/bashref.html
 
 ## Installation
@@ -33,7 +35,7 @@ The options are:
 <br />
 Each of these should describe how to open their terminal in their Description.
 <br />
-[source](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+<a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">source</a>
 
 ## Building/Compilation
 This language has no build or compilation process.

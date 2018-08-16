@@ -1,9 +1,10 @@
 # Java Projects
-
 Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.
+<br />
+Java was made to be OS independent so it can run on most if not all operating systems.
 
 ## Resources
-Java Documentation: [JDK 10](https://docs.oracle.com/javase/10/), [JDK 9](https://docs.oracle.com/javase/9/), [JDK 8](https://docs.oracle.com/javase/8/), [JDK 7](https://docs.oracle.com/javase/7/docs/index.html)
+Java Documentation: [JDK 10](https://docs.oracle.com/javase/10/), [JDK 9](https://docs.oracle.com/javase/9/), [JDK 8](https://docs.oracle.com/javase/8/)
 <br />
 [Codecademy.com](https://www.codecademy.com/learn/learn-java)
 <br />

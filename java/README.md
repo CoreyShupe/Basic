@@ -16,14 +16,14 @@ This gives them a chance to fix any big issues before releasing a long term supp
 - [Installation](#installation)
   - [JRE](#jre)
   - [JDK](#jdk)
-- [Building / Compilation](#building/compilation)
+- [Building / Compilation](#building-and-compilation)
   - [Java Compiler](#java-compiler)
     - [Single File Compilation](#single-file-compilation)
     - [Multiple File Compilation](#multi-file-compilation)
   - [Build Tools](#build-tools)
 - [Execution](#execution)
-  - [Class File Execution](#class-file-execution)
-  - [Jar File Execution](#jar-file-execution)
+  - [Class File Execution](#single-file-execution)
+  - [Jar File Execution](#archive-file-execution)
 
 ## Resources
 Java Documentation: https://docs.oracle.com/javase/
@@ -105,7 +105,7 @@ You can run this to install the JDK:
 sudo pacman -Syu jdk8-openjdk
 ```
 
-## Building/Compilation
+## Building and Compilation
 In Java there are a few ways to approach building and compilation.
 <br />
 You can use the built in java compiler (javac) or use a build tool to compile the code for you.

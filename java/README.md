@@ -147,6 +147,13 @@ $ javac $(find -name *.java -print)
 #### Jar
 `jar` is a tool in java which allows you to jar your class files into a single archive file. This archive can be used as a library or as an executable file.
 <br />
+A jar file is an archived file similar to a zip file which contains all the .class files of the selected program/library.
+<br />
+If it is executable it will generally also contain the manifest.txt, the META-INF properties, and all the resources used alongside it.
+<br />
+This archive is created so the JVM and compile can understand what is inside of it easily. This also allows for a single archive to contain an entire program which can be depended on or executed.
+<br />
+<br />
 If you have a [manifest](https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html) written up you can run the command:
 ```
 jar cfm Example.jar manifest.txt <class files>

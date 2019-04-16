@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="190.0" prefWidth="579.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.GUIController">
+   <children>
+      <TextField fx:id="rootDirectory" editable="false" layoutX="20.0" layoutY="42.0" prefHeight="37.0" prefWidth="297.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Text layoutX="28.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Directory">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="108.0" layoutY="17.0" mnemonicParsing="false" onAction="#openDirectoryFinder" text="Open" />
+      <Button layoutX="317.0" layoutY="153.0" mnemonicParsing="false" onAction="#organize" text="Organize" />
+      <Text layoutX="317.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <RadioButton layoutX="316.0" layoutY="52.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="258.0" text="Type">
+         <toggleGroup>
+            <ToggleGroup fx:id="organizationMethodRadioButtons" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="449.0" layoutY="52.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="128.0" text="First Letter" toggleGroup="$organizationMethodRadioButtons" />
+      <RadioButton layoutX="316.0" layoutY="86.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="258.0" text="Size" toggleGroup="$organizationMethodRadioButtons" />
+      <RadioButton layoutX="449.0" layoutY="86.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="128.0" text="Date Created" toggleGroup="$organizationMethodRadioButtons" />
+      <TextArea fx:id="loggingArea" editable="false" layoutX="26.0" layoutY="85.0" prefHeight="93.0" prefWidth="268.0" />
+      <RadioButton layoutX="315.0" layoutY="119.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="128.0" text="Date Modified" toggleGroup="$organizationMethodRadioButtons" />
+   </children>
+</AnchorPane>
